@@ -1,4 +1,4 @@
-package org.vmware;
+package org.vmware.tp;
 
 /*
  * Find sum of any two numbers equals to K

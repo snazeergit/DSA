@@ -1,4 +1,4 @@
-package org.vmware;
+package org.vmware.tp;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
