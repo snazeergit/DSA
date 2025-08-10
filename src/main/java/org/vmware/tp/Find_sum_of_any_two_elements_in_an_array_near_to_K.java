@@ -23,10 +23,10 @@ public class Find_sum_of_any_two_elements_in_an_array_near_to_K {
                 closestDif = dif;
                 closestL = l;
                 closestR = r;
-            } else if (sum > k) {
-                r--;
-            } else {
+            } else if (sum < k) {
                 l++;
+            } else {
+                r--;
             }
         }
         System.out.println("Nearest Pair: " + ar[closestL] + ", " + ar[closestR]);

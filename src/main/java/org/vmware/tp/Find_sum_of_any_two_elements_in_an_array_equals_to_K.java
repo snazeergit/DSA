@@ -7,15 +7,15 @@ public class Find_sum_of_any_two_elements_in_an_array_equals_to_K {
     public static void main(String[] args) {
 
         int[] ar = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-        int l = 0, r = ar.length - 1, k = 17;
+        int l = 0, r = ar.length - 1, k = 9;
         boolean flag=false;
         while (l < r) {
-            if (ar[l] + ar[r] == k) {
-                System.out.println("Match found");
+            int sum = ar[l] + ar[r];
+            if (sum == k) {
+                System.out.println("Match found: " + ar[l] + ", " + ar[r]);
                 flag=true;
-                System.out.println(ar[l]+" + "+ar[r]+" = " + k);
-                break;
-            } else if (ar[l] + ar[r] < k) {
+                return;
+            } else if (sum < k) {
                 l++;
             }else {
                 r--;
