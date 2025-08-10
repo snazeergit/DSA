@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ae160095-acf1-4f5d-9bd1-fdd514c7a744" name="Changes" comment="Two Pointers POC">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/vmware/tp/BruteForceApproach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/vmware/Find_sum_of_any_two_elements_in_an_array_equals_to_K.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vmware/tp/Find_sum_of_any_two_elements_in_an_array_equals_to_K.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/vmware/Find_sum_of_any_two_elements_in_an_array_near_to_K.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vmware/tp/Find_sum_of_any_two_elements_in_an_array_near_to_K.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/vmware/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/vmware/tp/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vmware/tp/Find_sum_of_any_two_elements_in_an_array_near_to_K.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vmware/tp/Find_sum_of_any_two_elements_in_an_array_near_to_K.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
     "Application.Find_sum_of_any_two_elements_in_an_array_equals_to_K.executor": "Run",
     "Application.Find_sum_of_any_two_elements_in_an_array_near_to_K.executor": "Run",
     "Application.Find_sum_of_any_two_numbers_equals_to_K.executor": "Run",
-    "Application.org.vmware.tp.Find_sum_of_any_two_elements_in_an_array_near_to_K.executor": "Run",
+    "Application.org.vmware.tp.Find_sum_of_any_two_elements_in_an_array_near_to_K.executor": "Debug",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -151,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754757802783</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Two Pointers POC">
+      <option name="closed" value="true" />
+      <created>1754761316023</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754761316023</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +171,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Two Pointers POC" />
     <option name="LAST_COMMIT_MESSAGE" value="Two Pointers POC" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
@@ -184,6 +190,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/vmware/tp/BruteForceApproach.java</url>
           <line>12</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/vmware/tp/Find_sum_of_any_two_elements_in_an_array_near_to_K.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
