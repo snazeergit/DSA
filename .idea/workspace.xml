@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ae160095-acf1-4f5d-9bd1-fdd514c7a744" name="Changes" comment="Two Pointers POC">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/vmware/tp/Find_All_the_Pairs_sum_of_any_two_elements_in_an_array_near_to_K.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/vmware/tp/Find_sum_of_any_two_elements_in_an_array_near_to_K.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vmware/tp/Find_sum_of_any_two_elements_in_an_array_near_to_K.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +45,11 @@
   "keyToString": {
     "Application.App.executor": "Run",
     "Application.BruteForceApproach.executor": "Run",
+    "Application.Find_All_the_Pairs_sum_of_any_two_elements_in_an_array_near_to_K.executor": "Run",
     "Application.Find_sum_of_any_two_elements_in_an_array_equals_to_K.executor": "Run",
     "Application.Find_sum_of_any_two_elements_in_an_array_near_to_K.executor": "Run",
     "Application.Find_sum_of_any_two_numbers_equals_to_K.executor": "Run",
-    "Application.org.vmware.tp.Find_sum_of_any_two_elements_in_an_array_near_to_K.executor": "Debug",
+    "Application.org.vmware.tp.Find_sum_of_any_two_elements_in_an_array_near_to_K.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -58,12 +59,26 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.vmware.tp" />
       <recent name="org.vmware" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.vmware.tp.Find_sum_of_any_two_elements_in_an_array_near_to_K">
+  <component name="RunManager" selected="Application.Find_All_the_Pairs_sum_of_any_two_elements_in_an_array_near_to_K">
     <configuration name="BruteForceApproach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.vmware.tp.BruteForceApproach" />
+      <module name="TwoPointersUseCases" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.vmware.tp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Find_All_the_Pairs_sum_of_any_two_elements_in_an_array_near_to_K" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.vmware.tp.Find_All_the_Pairs_sum_of_any_two_elements_in_an_array_near_to_K" />
       <module name="TwoPointersUseCases" />
       <extension name="coverage">
         <pattern>
@@ -116,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Find_All_the_Pairs_sum_of_any_two_elements_in_an_array_near_to_K" />
         <item itemvalue="Application.org.vmware.tp.Find_sum_of_any_two_elements_in_an_array_near_to_K" />
         <item itemvalue="Application.BruteForceApproach" />
         <item itemvalue="Application.Find_sum_of_any_two_elements_in_an_array_near_to_K" />
@@ -156,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754761316023</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Two Pointers POC">
+      <option name="closed" value="true" />
+      <created>1754806623699</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1754806623699</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
